@@ -48,7 +48,7 @@ To run the application in a production environment, use the following steps:
 3. Start the application using Docker Compose with the Traefik configuration:
 
     ```bash
-    docker-compose -f docker-compose.traefik.yml --env-file ./backend/.env up -d
+    docker-compose -f docker-compose.traefik.yml up -d
     ```
 
 4. (Optional) To start the application without Traefik:
