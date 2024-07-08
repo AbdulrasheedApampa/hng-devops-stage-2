@@ -43,7 +43,7 @@ services:
     depends_on:
       - db
     env_file:
-      - .env
+      - ./backend/.env
     environment:
       - DOMAIN=${DOMAIN}
       - ENVIRONMENT=${ENVIRONMENT}
